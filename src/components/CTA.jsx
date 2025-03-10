@@ -14,16 +14,23 @@ const CTA = () => {
                     </div>
                     <h1 className='text-4xl md:text-5xl text-white font-bold'>Get Start For Free No Credit Card Required</h1>
                     <div className='flex md:gap-5 gap-2'>
-                        <input type="text" placeholder='Email Address' className='bg-white px-5 rounded-sm py-3 md:w-[300px]' />
-                        <button className='bg-[#20CFC6] text-white px-4 py-2 rounded-sm hover:bg-[#17b2a7] hover:shadow-xl transition duration-200 ease-in-out'>
+                        <input
+                            type="text"
+                            placeholder='Email Address'
+                            className='bg-white px-4 py-2 md:py-3 rounded-sm w-[180px] md:w-[300px] text-sm'
+                        />
+                        <button
+                            className='bg-[#20CFC6] text-white px-3 py-2 md:px-4 md:py-2 rounded-sm text-sm md:text-base hover:bg-[#17b2a7] hover:shadow-xl transition duration-200 ease-in-out'
+                        >
                             Get Started
                         </button>
                     </div>
+
                     <p className='text-gray-200'>Want to contact our team and book a call? <span className='text-[#20CFC6] hover:text-[#080080]'>Try it now</span></p>
                 </div>
                 {/* image section */}
                 <div>
-                    <img src={CTAImage} alt="" />
+                    <img src={CTAImage} alt="" className="w-[200px] md:w-auto" />
                 </div>
             </div>
         </div>
