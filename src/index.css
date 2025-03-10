@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
