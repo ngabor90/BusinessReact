@@ -47,8 +47,8 @@ const Footer = () => {
           {/* column 4 */}
           <div className='space-y-5 md:pl-28'>
             <h1 className='font-bold text-xl'>Contact Details</h1>
-            <p>contact@briofin.com</p>
-            <p>+1 (555) 123-4567</p>
+            <p>contact@business.com</p>
+            <p>+36 (30) 123-4567</p>
           </div>
         </div>
         <hr />
